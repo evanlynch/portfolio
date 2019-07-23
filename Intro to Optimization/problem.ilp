@@ -1,0 +1,41 @@
+\ Model ReOrg_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+  0 n[Michael,Gina] + 0 n[Michael,Matt] + 0 n[Michael,Brenda]
+   + 0 n[Gina,Matt] + 0 n[Gina,Brenda] + 0 n[Matt,Brenda]
+Subject To
+ assignment[Michael]: x[Michael,New_DepA] + x[Michael,New_DepB]
+   + x[Michael,New_DepC] = 1
+ assignment[Gina]: x[Gina,New_DepA] + x[Gina,New_DepB] + x[Gina,New_DepC]
+   = 1
+ assignment[Matt]: x[Matt,New_DepA] + x[Matt,New_DepB] + x[Matt,New_DepC]
+   = 1
+ assignment[Brenda]: x[Brenda,New_DepA] + x[Brenda,New_DepB]
+   + x[Brenda,New_DepC] = 1
+Bounds
+Binaries
+ x[Michael,New_DepA] x[Michael,New_DepB] x[Michael,New_DepC]
+ x[Gina,New_DepA] x[Gina,New_DepB] x[Gina,New_DepC] x[Matt,New_DepA]
+ x[Matt,New_DepB] x[Matt,New_DepC] x[Brenda,New_DepA] x[Brenda,New_DepB]
+ x[Brenda,New_DepC] n[Michael,Gina] n[Michael,Matt] n[Michael,Brenda]
+ n[Gina,Matt] n[Gina,Brenda] n[Matt,Brenda]
+General Constraints
+ GC0: n[Michael,Gina] = AND ( x[Michael,New_DepA] , x[Gina,New_DepA] )
+ GC1: n[Michael,Gina] = AND ( x[Michael,New_DepB] , x[Gina,New_DepB] )
+ GC2: n[Michael,Gina] = AND ( x[Michael,New_DepC] , x[Gina,New_DepC] )
+ GC3: n[Michael,Matt] = AND ( x[Michael,New_DepA] , x[Matt,New_DepA] )
+ GC4: n[Michael,Matt] = AND ( x[Michael,New_DepB] , x[Matt,New_DepB] )
+ GC5: n[Michael,Matt] = AND ( x[Michael,New_DepC] , x[Matt,New_DepC] )
+ GC6: n[Michael,Brenda] = AND ( x[Michael,New_DepA] , x[Brenda,New_DepA] )
+ GC7: n[Michael,Brenda] = AND ( x[Michael,New_DepB] , x[Brenda,New_DepB] )
+ GC8: n[Michael,Brenda] = AND ( x[Michael,New_DepC] , x[Brenda,New_DepC] )
+ GC12: n[Gina,Matt] = AND ( x[Gina,New_DepA] , x[Matt,New_DepA] )
+ GC13: n[Gina,Matt] = AND ( x[Gina,New_DepB] , x[Matt,New_DepB] )
+ GC14: n[Gina,Matt] = AND ( x[Gina,New_DepC] , x[Matt,New_DepC] )
+ GC15: n[Gina,Brenda] = AND ( x[Gina,New_DepA] , x[Brenda,New_DepA] )
+ GC16: n[Gina,Brenda] = AND ( x[Gina,New_DepB] , x[Brenda,New_DepB] )
+ GC17: n[Gina,Brenda] = AND ( x[Gina,New_DepC] , x[Brenda,New_DepC] )
+ GC24: n[Matt,Brenda] = AND ( x[Matt,New_DepA] , x[Brenda,New_DepA] )
+ GC25: n[Matt,Brenda] = AND ( x[Matt,New_DepB] , x[Brenda,New_DepB] )
+ GC26: n[Matt,Brenda] = AND ( x[Matt,New_DepC] , x[Brenda,New_DepC] )
+End

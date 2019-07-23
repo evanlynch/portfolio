@@ -1,0 +1,9 @@
+\ Model policyDecisions_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ getNewEvictionRate[Barbour_County-Alabama]: 0.63 C9428 + C12570 = 0.63
+Bounds
+ C12570 >= 1.263854232972627
+End

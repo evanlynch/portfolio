@@ -1,0 +1,109 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 500px;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "#e5430d", "id": 0, "label": 0, "shape": "dot", "size": 12, "x": 0, "y": 0}, {"color": "#3a2b26", "id": 1, "label": 1, "shape": "dot", "size": 3, "x": 3.5, "y": -3.5}, {"color": "#3a2b26", "id": 2, "label": 2, "shape": "dot", "size": 3, "x": 4.3, "y": -4.3}, {"color": "#3a2b26", "id": 3, "label": 3, "shape": "dot", "size": 3, "x": 3.9, "y": -3.9}, {"color": "#3a2b26", "id": 4, "label": 4, "shape": "dot", "size": 3, "x": 3.0, "y": -3.0}, {"color": "#3a2b26", "id": 5, "label": 5, "shape": "dot", "size": 3, "x": 3.1, "y": -3.1}, {"color": "#3a2b26", "id": 6, "label": 6, "shape": "dot", "size": 3, "x": 3.2, "y": -3.2}, {"color": "#3a2b26", "id": 7, "label": 7, "shape": "dot", "size": 3, "x": 3.0, "y": -3.0}, {"color": "#3a2b26", "id": 8, "label": 8, "shape": "dot", "size": 3, "x": 2.1, "y": -2.1}, {"color": "#3a2b26", "id": 9, "label": 9, "shape": "dot", "size": 3, "x": 4.0, "y": -4.0}, {"color": "#3a2b26", "id": 10, "label": 10, "shape": "dot", "size": 3, "x": 5.1, "y": -5.1}]);
+        edges = new vis.DataSet([{"color": "1ed", "from": 0, "physics": false, "to": 1, "weight": 3.5, "width": 2}, {"color": "#edefef", "from": 0, "hidden": true, "physics": false, "to": 2, "weight": 4.3, "width": 2}, {"color": "b9e", "from": 0, "physics": false, "to": 3, "weight": 3.9, "width": 2}, {"color": "3b1", "from": 0, "physics": false, "to": 4, "weight": 3.0, "width": 2}, {"color": "3b1", "from": 0, "physics": false, "to": 5, "weight": 3.1, "width": 2}, {"color": "b9e", "from": 0, "physics": false, "to": 6, "weight": 3.2, "width": 2}, {"color": "4ae", "from": 0, "physics": false, "to": 7, "weight": 3.0, "width": 2}, {"color": "009", "from": 0, "physics": false, "to": 8, "weight": 2.1, "width": 2}, {"color": "1ed", "from": 0, "physics": false, "to": 9, "weight": 4.0, "width": 2}, {"color": "4ae", "from": 0, "physics": false, "to": 10, "weight": 5.1, "width": 2}, {"color": "1ed", "from": 1, "physics": false, "to": 2, "weight": 1.4, "width": 2}, {"color": "#edefef", "from": 1, "hidden": true, "physics": false, "to": 3, "weight": 3.1, "width": 2}, {"color": "#edefef", "from": 1, "hidden": true, "physics": false, "to": 4, "weight": 1.7, "width": 2}, {"color": "#edefef", "from": 1, "hidden": true, "physics": false, "to": 5, "weight": 1.7, "width": 2}, {"color": "#edefef", "from": 1, "hidden": true, "physics": false, "to": 6, "weight": 2.4, "width": 2}, {"color": "#edefef", "from": 1, "hidden": true, "physics": false, "to": 7, "weight": 1.7, "width": 2}, {"color": "#edefef", "from": 1, "hidden": true, "physics": false, "to": 8, "weight": 5.4, "width": 2}, {"color": "#edefef", "from": 1, "hidden": true, "physics": false, "to": 9, "weight": 3.3, "width": 2}, {"color": "#edefef", "from": 1, "hidden": true, "physics": false, "to": 10, "weight": 5.9, "width": 2}, {"color": "#edefef", "from": 2, "hidden": true, "physics": false, "to": 3, "weight": 4.0, "width": 2}, {"color": "#edefef", "from": 2, "hidden": true, "physics": false, "to": 4, "weight": 2.6, "width": 2}, {"color": "#edefef", "from": 2, "hidden": true, "physics": false, "to": 5, "weight": 2.6, "width": 2}, {"color": "#edefef", "from": 2, "hidden": true, "physics": false, "to": 6, "weight": 3.3, "width": 2}, {"color": "#edefef", "from": 2, "hidden": true, "physics": false, "to": 7, "weight": 2.6, "width": 2}, {"color": "#edefef", "from": 2, "hidden": true, "physics": false, "to": 8, "weight": 6.3, "width": 2}, {"color": "1ed", "from": 2, "physics": false, "to": 9, "weight": 2.9, "width": 2}, {"color": "#edefef", "from": 2, "hidden": true, "physics": false, "to": 10, "weight": 6.5, "width": 2}, {"color": "#edefef", "from": 3, "hidden": true, "physics": false, "to": 4, "weight": 1.7, "width": 2}, {"color": "#edefef", "from": 3, "hidden": true, "physics": false, "to": 5, "weight": 1.7, "width": 2}, {"color": "b9e", "from": 3, "physics": false, "to": 6, "weight": 0.7, "width": 2}, {"color": "#edefef", "from": 3, "hidden": true, "physics": false, "to": 7, "weight": 1.7, "width": 2}, {"color": "#edefef", "from": 3, "hidden": true, "physics": false, "to": 8, "weight": 5.2, "width": 2}, {"color": "#edefef", "from": 3, "hidden": true, "physics": false, "to": 9, "weight": 5.7, "width": 2}, {"color": "#edefef", "from": 3, "hidden": true, "physics": false, "to": 10, "weight": 3.4, "width": 2}, {"color": "3b1", "from": 4, "physics": false, "to": 5, "weight": 0.0, "width": 2}, {"color": "#edefef", "from": 4, "hidden": true, "physics": false, "to": 6, "weight": 1.0, "width": 2}, {"color": "#edefef", "from": 4, "hidden": true, "physics": false, "to": 7, "weight": 0.6, "width": 2}, {"color": "#edefef", "from": 4, "hidden": true, "physics": false, "to": 8, "weight": 4.3, "width": 2}, {"color": "#edefef", "from": 4, "hidden": true, "physics": false, "to": 9, "weight": 4.5, "width": 2}, {"color": "#edefef", "from": 4, "hidden": true, "physics": false, "to": 10, "weight": 3.2, "width": 2}, {"color": "#edefef", "from": 5, "hidden": true, "physics": false, "to": 6, "weight": 1.0, "width": 2}, {"color": "#edefef", "from": 5, "hidden": true, "physics": false, "to": 7, "weight": 0.7, "width": 2}, {"color": "#edefef", "from": 5, "hidden": true, "physics": false, "to": 8, "weight": 4.3, "width": 2}, {"color": "#edefef", "from": 5, "hidden": true, "physics": false, "to": 9, "weight": 4.5, "width": 2}, {"color": "#edefef", "from": 5, "hidden": true, "physics": false, "to": 10, "weight": 3.2, "width": 2}, {"color": "#edefef", "from": 6, "hidden": true, "physics": false, "to": 7, "weight": 1.0, "width": 2}, {"color": "#edefef", "from": 6, "hidden": true, "physics": false, "to": 8, "weight": 4.5, "width": 2}, {"color": "#edefef", "from": 6, "hidden": true, "physics": false, "to": 9, "weight": 5.0, "width": 2}, {"color": "#edefef", "from": 6, "hidden": true, "physics": false, "to": 10, "weight": 2.7, "width": 2}, {"color": "#edefef", "from": 7, "hidden": true, "physics": false, "to": 8, "weight": 4.3, "width": 2}, {"color": "#edefef", "from": 7, "hidden": true, "physics": false, "to": 9, "weight": 4.8, "width": 2}, {"color": "4ae", "from": 7, "physics": false, "to": 10, "weight": 3.1, "width": 2}, {"color": "#edefef", "from": 8, "hidden": true, "physics": false, "to": 9, "weight": 5.7, "width": 2}, {"color": "#edefef", "from": 8, "hidden": true, "physics": false, "to": 10, "weight": 6.1, "width": 2}, {"color": "#edefef", "from": 9, "hidden": true, "physics": false, "to": 10, "weight": 7.8, "width": 2}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        // default to using dot shape for nodes
+        options.nodes = {
+            shape: "dot"
+        }
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

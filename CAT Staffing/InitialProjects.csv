@@ -1,0 +1,19 @@
+LABEL,PROJECT_NAME,DEADLINE,HAS_DEADLINE?,RELATED_TO_DELIVERABLE,NO_PROJECT_DEPENDENCIES?,L/G?,HAVE_ALL_DATA?,COMPLETION_GOAL,START_DATE,END_DATE,Tools/Skills,PROJECT_STATUS,Dependencies?,PEOPLE_WORKING,Notes,SORT_SCORE,EST_HOURS_REQ
+DASA-CE,ARRG Slide Stats,3/1/2018,1,1,1,1,1,43160,43132,,"Python/R, SQL",Active,,"Yuriy, Scott",,9,10
+DASA-CE,Price Change Dashboard/Analysis,3/1/2018,1,1,1,1,1,43160,43160,,"Python/R, Qlik, SQL",Active,,Whole Team,,9,10
+OSMIS,R/Python SQL Integration,,0,1,1,1,1,NA,43132,,"R/Python, SQL",Active,,Yuriy,,6,10
+OSMIS,CF Business Rule Review,,0,1,1,1,1,43160,43132,,Python/R,Active,,"Grace, Yuriy",FC/AR -- Grace ; Density -- Yuriy,6,10
+OSMIS,ATR Demand Forecast,,0,1,1,1,1,43252,43101,,"Python/R, Qlik Sense, SQL, Forecasting",Active,,"Scott, Evan, Jenny",Waiting on quarterly QVD's,6,10
+DASA-CE,Analogous Systems,,0,0,1,1,1,On Hold,Mid June 2017,,"Python/R, SQL, Similarity Scoring",On Hold,,"Scott, Yuriy",On hold until further direction. May implement current iteration on OSMISWeb,4,10
+OSMIS,Analytics Task Member Tracking,,0,0,1,1,1,Sometime 2018,43132,,MS Project,Active,,"Jess, Evan",,4,10
+NON-OSMIS,OMB Support,,0,1,1,0,1,Ongoing,Mid October 2017,,"Python/R, NLP",Active,,Jenny,,4,10
+OSMIS,Unit Classification,,0,0,1,1,1,43160,43040,,"Python, Qlik?, Clustering",Active,,Grace,,4,10
+NON-OSMIS,Business Development Database,,0,0,1,1,1,End of February 2018,Early November 2017,,"Neo4j, Python, Qlik",Active,,Grace,,4,10
+DASA-CE,APACT Pricing,,0,0,1,0,1,On Hold,,,"Python/R, Forecasting",Inactive,,,Waiting for word from DASA-CE,2,10
+OSMIS,OSMISWeb -- Summary Dash,,0,1,1,1,0,Mid January 2018,,,"Qlik, SQL",Inactive,,,,0,10
+OSMIS,OSMISWeb -- Optempo Dash,,0,1,1,1,0,Mid January 2018,,,"Qlik, SQL",Inactive,,,,0,10
+OSMIS,OSMISWeb -- Cost Driver Dash,,0,1,1,1,0,Mid January 2018,,,"Qlik, SQL",Inactive,,,,0,10
+OSMIS,OSMISWeb -- OSVAT V2 Dash,,0,1,1,1,0,Mid January 2018,,,"Qlik, SQL",Inactive,,,,0,10
+OSMIS,Parts Optimization,,0,0,0,1,0,43344,,,"Python, Linear Programming",Gathering Reqs,ATR Demand Forecast,Evan,Russell checking data sources,0,10
+OSMIS,WBS ML,,0,1,1,1,0,,,,"Python/R, Machine Learning, Qlik?",Inactive,,,Waiting for new standard (881d?),0,10
+OSMIS,OSMIS Web -- Query for Data,,0,1,1,1,0,43160,,,"Qlik, SQL",Inactive,,,Waiting for Data from Russ,0,10

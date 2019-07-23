@@ -1,0 +1,963 @@
+
+Gurobi 7.5.2 (win64, Python) logging started 09/06/18 13:53:39
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 38325 columns and 0 nonzeros
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 0 rows and 35183 columns
+Presolve time: 0.04s
+
+Solved in 0 iterations and 0.04 seconds
+Unbounded model
+Optimize a model with 0 rows, 38325 columns and 0 nonzeros
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 0 rows and 38325 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.06 seconds
+Optimal objective  0.000000000e+00
+Optimize a model with 0 rows, 38325 columns and 0 nonzeros
+Model has 6284 quadratic constraints
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e-02, 2e+01]
+Presolve removed 0 rows and 22615 columns
+Optimize a model with 0 rows, 38325 columns and 0 nonzeros
+Model has 9426 quadratic constraints
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e-02, 2e+01]
+Presolve removed 0 rows and 22615 columns
+Optimize a model with 0 rows, 15713 columns and 0 nonzeros
+Model has 3142 quadratic constraints
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e-02, 2e+01]
+Presolve removed 0 rows and 3 columns
+Optimize a model with 3142 rows, 15713 columns and 6284 nonzeros
+Model has 3142 quadratic constraints
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 2e+01]
+  QRHS range       [1e-02, 2e+01]
+Presolve removed 1020 rows and 2043 columns
+Optimize a model with 3142 rows, 15713 columns and 6284 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 2e+01]
+Presolve removed 3142 rows and 15713 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.9710300e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.03 seconds
+Optimal objective  3.971030000e+03
+Optimize a model with 28278 rows, 15713 columns and 47130 nonzeros
+Model has 18852 quadratic constraints
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 2e+01]
+  QRHS range       [3e+00, 3e+00]
+Presolve removed 12568 rows and 3 columns
+Presolve time: 0.03s
+
+Barrier solved model in 0 iterations and 0.04 seconds
+Model is infeasible or unbounded
+Changed value of parameter DualReductions to 0
+   Prev: 1  Min: 0  Max: 1  Default: 1
+Optimize a model with 28278 rows, 15713 columns and 47130 nonzeros
+Model has 18852 quadratic constraints
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 2e+01]
+  QRHS range       [3e+00, 3e+00]
+Presolve removed 12568 rows and 0 columns
+Presolve time: 0.03s
+
+Barrier solved model in 0 iterations and 0.03 seconds
+Model is infeasible
+Changed value of parameter DualReductions to 1
+   Prev: 0  Min: 0  Max: 1  Default: 1
+Optimize a model with 28278 rows, 15713 columns and 47130 nonzeros
+Model has 18852 quadratic constraints
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 2e+01]
+  QRHS range       [3e+00, 3e+00]
+Presolve removed 12568 rows and 3 columns
+Presolve time: 0.03s
+
+Barrier solved model in 0 iterations and 0.04 seconds
+Model is infeasible or unbounded
+Changed value of parameter DualReductions to 0
+   Prev: 1  Min: 0  Max: 1  Default: 1
+Optimize a model with 28278 rows, 15713 columns and 47130 nonzeros
+Model has 18852 quadratic constraints
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 2e+01]
+  QRHS range       [3e+00, 3e+00]
+Presolve removed 12568 rows and 0 columns
+Presolve time: 0.03s
+
+Barrier solved model in 0 iterations and 0.03 seconds
+Model is infeasible
+Parameter DualReductions unchanged
+   Value: 0  Min: 0  Max: 1  Default: 1
+Optimize a model with 28278 rows, 15713 columns and 47130 nonzeros
+Model has 28278 quadratic constraints
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 2e+01]
+  QRHS range       [3e+00, 3e+00]
+Presolve removed 12568 rows and 0 columns
+Presolve time: 0.03s
+
+Barrier solved model in 0 iterations and 0.04 seconds
+Model is infeasible
+Parameter DualReductions unchanged
+   Value: 0  Min: 0  Max: 1  Default: 1
+Optimize a model with 31420 rows, 15713 columns and 53414 nonzeros
+Model has 37704 quadratic constraints
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 2e+01]
+  QRHS range       [3e+00, 3e+00]
+Presolve time: 0.03s
+
+Barrier solved model in 0 iterations and 0.04 seconds
+Model is infeasible
+Parameter DualReductions unchanged
+   Value: 0  Min: 0  Max: 1  Default: 1
+Optimize a model with 34562 rows, 15713 columns and 59698 nonzeros
+Model has 47130 quadratic constraints
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 2e+01]
+  QRHS range       [3e+00, 3e+00]
+Presolve removed 3142 rows and 3142 columns
+Presolve time: 0.04s
+
+Barrier solved model in 0 iterations and 0.04 seconds
+Model is infeasible
+Changed value of parameter DualReductions to 1
+   Prev: 0  Min: 0  Max: 1  Default: 1
+
+Gurobi 7.5.2 (win64, Python) logging started 09/06/18 15:34:22
+
+Academic license - for non-commercial use only
+Optimize a model with 9426 rows, 15713 columns and 18852 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 9426 rows and 12571 columns
+Presolve time: 0.02s
+
+Solved in 0 iterations and 0.03 seconds
+Infeasible or unbounded model
+Changed value of parameter DualReductions to 0
+   Prev: 1  Min: 0  Max: 1  Default: 1
+Optimize a model with 9426 rows, 15713 columns and 18852 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 9426 rows and 9426 columns
+Presolve time: 0.03s
+Presolved: 0 rows, 6287 columns, 0 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.1420000e+33   0.000000e+00   3.142000e+03      0s
+
+Solved in 0 iterations and 0.04 seconds
+Unbounded model
+Parameter DualReductions unchanged
+   Value: 0  Min: 0  Max: 1  Default: 1
+Optimize a model with 9427 rows, 15713 columns and 28278 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+06, 1e+06]
+Presolve removed 9426 rows and 9426 columns
+Presolve time: 0.03s
+Presolved: 1 rows, 6287 columns, 3142 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    9.2307692e+05   0.000000e+00   0.000000e+00      0s
+       0    9.2307692e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.05 seconds
+Optimal objective  9.230769231e+05
+Parameter DualReductions unchanged
+   Value: 0  Min: 0  Max: 1  Default: 1
+Optimize a model with 18854 rows, 31426 columns and 56556 nonzeros
+Coefficient statistics:
+  Matrix range     [3e-01, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+02, 1e+06]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.1420000e+33   9.426000e+33   3.142000e+03      0s
+   12567    1.1111111e+01   0.000000e+00   0.000000e+00      3s
+
+Solved in 12567 iterations and 3.18 seconds
+Optimal objective  1.111111111e+01
+Optimize a model with 18854 rows, 31426 columns and 56556 nonzeros
+Coefficient statistics:
+  Matrix range     [3e-01, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+02, 1e+06]
+
+Solved in 12567 iterations and 0.02 seconds
+Optimal objective  1.111111111e+01
+Optimize a model with 31422 rows, 47136 columns and 80672 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 4e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+02, 1e+06]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0000000e+30   3.142000e+33   1.000000e+00      0s
+
+Solved in 9508 iterations and 0.29 seconds
+Unbounded model
+Optimize a model with 31423 rows, 47136 columns and 90098 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 4e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+02, 1e+06]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.8216529e+27   3.954000e+33   3.821653e-03      0s
+     839    6.2097744e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 839 iterations and 0.29 seconds
+Optimal objective  6.209774383e+00
+Optimize a model with 43992 rows, 62846 columns and 123640 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 4e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+02, 1e+06]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0000000e+30   3.142000e+33   1.000000e+00      0s
+    5444    6.2097744e-04   0.000000e+00   0.000000e+00      0s
+
+Solved in 5444 iterations and 0.22 seconds
+Optimal objective  6.209774383e-04
+Optimize a model with 47135 rows, 62846 columns and 138330 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 4e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+06]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.2097744e-04   3.967128e+03   0.000000e+00      0s
+
+Solved in 3 iterations and 0.06 seconds
+Infeasible model
+Optimize a model with 12569 rows, 62846 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+02]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve removed 12568 rows and 12568 columns
+Presolve time: 0.07s
+Presolved: 1 rows, 50278 columns, 3142 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 0.000e+00
+ Factor NZ  : 1.000e+00 (roughly 20 MBytes of memory)
+ Factor Ops : 1.000e+00 (less than 1 second per iteration)
+ Threads    : 1
+
+Barrier performed 0 iterations in 0.12 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 0 iterations and 0.13 seconds
+Optimal objective  1.263854233e+00
+
+Gurobi 7.5.2 (win64, Python) logging started 09/07/18 10:24:53
+
+Academic license - for non-commercial use only
+Optimize a model with 12569 rows, 15710 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+02]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve removed 12569 rows and 15710 columns
+Presolve time: 0.09s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2638542e+00   0.000000e+00   0.000000e+00      0s
+
+Solved with dual simplex
+Solved in 0 iterations and 0.13 seconds
+Optimal objective  1.263854233e+00
+Optimize a model with 25138 rows, 15710 columns and 67084 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+02]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.2486123e+28   3.294323e+34   1.248612e-02      0s
+     262    1.2632333e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 262 iterations and 0.16 seconds
+Optimal objective  1.263233256e+00
+Optimize a model with 37707 rows, 31420 columns and 100626 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   3.971030e+03   0.000000e+00      0s
+    7498    1.9436983e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 7498 iterations and 0.16 seconds
+Optimal objective  1.943698281e-01
+Optimize a model with 40849 rows, 31420 columns and 103768 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.9436983e-01   3.360320e+03   0.000000e+00      0s
+
+Solved in 1988 iterations and 0.07 seconds
+Infeasible model
+Optimize a model with 43991 rows, 31420 columns and 106910 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    9.9403317e-01   3.277629e+03   0.000000e+00      0s
+
+Solved in 0 iterations and 0.04 seconds
+Infeasible model
+Optimize a model with 12569 rows, 15710 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve time: 0.05s
+
+Solved with barrier
+Solved in 0 iterations and 0.06 seconds
+Infeasible model
+Optimize a model with 25138 rows, 15710 columns and 67084 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve time: 0.04s
+
+Solved with barrier
+Solved in 0 iterations and 0.05 seconds
+Infeasible model
+Optimize a model with 37707 rows, 18852 columns and 100626 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve time: 0.08s
+
+Solved with dual simplex
+Solved in 0 iterations and 0.09 seconds
+Infeasible model
+Optimize a model with 50276 rows, 21994 columns and 134168 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve removed 1020 rows and 4162 columns
+Presolve time: 0.09s
+
+Solved with barrier
+Solved in 0 iterations and 0.10 seconds
+Infeasible model
+Optimize a model with 12569 rows, 15710 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve removed 12569 rows and 15710 columns
+Presolve time: 0.09s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.5241884e-02   0.000000e+00   0.000000e+00      0s
+
+Solved with dual simplex
+Solved in 0 iterations and 0.13 seconds
+Optimal objective  1.524188415e-02
+Optimize a model with 12569 rows, 15710 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+Warning: Markowitz tolerance tightened to 0.03125
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.8179504e+29   1.566367e+36   5.817950e-01      0s
+    1828    1.2638542e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 1828 iterations and 0.04 seconds
+Optimal objective  1.263854233e+00
+Optimize a model with 12569 rows, 18852 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.6676162e+27   2.463132e+33   2.667616e-03      0s
+    1437    1.1941439e-01   0.000000e+00   0.000000e+00      1s
+
+Solved in 1437 iterations and 0.55 seconds
+Optimal objective  1.194143857e-01
+Optimize a model with 12569 rows, 15710 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve time: 0.04s
+
+Solved with barrier
+Solved in 0 iterations and 0.05 seconds
+Infeasible model
+Optimize a model with 15711 rows, 18852 columns and 36684 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve removed 3142 rows and 3142 columns
+Presolve time: 0.04s
+
+Solved with barrier
+Solved in 0 iterations and 0.04 seconds
+Infeasible model
+Optimize a model with 15711 rows, 15710 columns and 36684 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve removed 3142 rows and 1020 columns
+Presolve time: 0.08s
+
+Solved with barrier
+Solved in 0 iterations and 0.09 seconds
+Infeasible model
+Optimize a model with 12569 rows, 15710 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve removed 12569 rows and 15710 columns
+Presolve time: 0.06s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.5241884e-02   0.000000e+00   0.000000e+00      0s
+
+Solved with dual simplex
+Solved in 0 iterations and 0.08 seconds
+Optimal objective  1.524188415e-02
+Optimize a model with 40848 rows, 15710 columns and 92220 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve removed 5264 rows and 1020 columns
+Presolve time: 0.06s
+
+Solved with barrier
+Solved in 0 iterations and 0.06 seconds
+Infeasible model
+Optimize a model with 40848 rows, 15710 columns and 92220 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve removed 5264 rows and 1020 columns
+Presolve time: 0.06s
+
+Solved with barrier
+Solved in 0 iterations and 0.06 seconds
+Infeasible model
+Optimize a model with 9426 rows, 15710 columns and 18852 nonzeros
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 9426 rows and 15710 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.03 seconds
+Optimal objective  0.000000000e+00
+Optimize a model with 18852 rows, 15710 columns and 37704 nonzeros
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.03 seconds
+Optimal objective  0.000000000e+00
+Optimize a model with 21995 rows, 15710 columns and 52394 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   3.971030e+03   0.000000e+00      0s
+    2147    9.1852323e-03   0.000000e+00   0.000000e+00      0s
+
+Solved in 2147 iterations and 0.07 seconds
+Optimal objective  9.185232336e-03
+Optimize a model with 25137 rows, 15710 columns and 55536 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    9.1852323e-03   3.942170e+03   0.000000e+00      0s
+
+Solved in 14 iterations and 0.03 seconds
+Infeasible model
+Optimize a model with 28279 rows, 15710 columns and 58678 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.4816664e-02   1.088693e+04   0.000000e+00      0s
+
+Solved in 0 iterations and 0.03 seconds
+Infeasible model
+Warning: constraint name "makeAnImpact[Autauga County-Alabama,poverty-rate]" has a space
+Warning: constraint name "makeAnImpact[Autauga County-Alabama,poverty-rate]" has a space
+Optimize a model with 12569 rows, 15710 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve time: 0.05s
+
+Solved with barrier
+Solved in 0 iterations and 0.05 seconds
+Infeasible model
+
+IIS computed: 1 constraints and 2 bounds
+IIS runtime: 0.00 seconds
+Warning: constraint name "getNewEvictionRate[Barbour County-Alabama]" has a space
+Warning: constraint name "makeAnImpact[Autauga County-Alabama,poverty-rate]" has a space
+Optimize a model with 12569 rows, 15710 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-02, 2e+01]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve time: 0.05s
+
+Solved with barrier
+Solved in 0 iterations and 0.05 seconds
+Infeasible model
+
+IIS computed: 1 constraints and 2 bounds
+IIS runtime: 0.01 seconds
+Warning: constraint name "getNewEvictionRate[Barbour County-Alabama]" has a space
+Warning: constraint name "getNewEvictionRate[Autauga County-Alabama]" has a space
+Warning: Q constraint name "makeAnImpact[Autauga County-Alabama,poverty-rate]" has a space
+Presolve removed 0 rows and 3142 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+IIS computed: 1 constraints, 2 bounds
+IIS runtime: 0.05 seconds
+Optimize a model with 3143 rows, 18852 columns and 14690 nonzeros
+Model has 9426 quadratic constraints
+Variable types: 15710 continuous, 3142 integer (3142 binary)
+Coefficient statistics:
+  Matrix range     [1e-02, 2e+01]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [3e-01, 5e-01]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+Presolve removed 0 rows and 3142 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Warning: constraint name "getNewEvictionRate[Barbour County-Alabama]" has a space
+Optimize a model with 3143 rows, 18852 columns and 14690 nonzeros
+Model has 9426 quadratic constraints
+Model has 1 general constraint
+Variable types: 15710 continuous, 3142 integer (3142 binary)
+Coefficient statistics:
+  Matrix range     [1e-02, 2e+01]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [3e-01, 5e-01]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+Presolve removed 0 rows and 3141 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+IIS computed: 1 constraints, 2 bounds
+IIS runtime: 0.01 seconds
+Warning: constraint name "getNewEvictionRate[Barbour County-Alabama]" has a space
+Warning: constraint name "getNewEvictionRate[Autauga County-Alabama]" has a space
+Warning: Q constraint name "makeAnImpact[Autauga County-Alabama,poverty-rate]" has a space
+Presolve removed 3141 rows and 3142 columns
+Presolve time: 0.08s
+
+Explored 0 nodes (0 simplex iterations) in 0.09 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Best objective -, best bound -, gap -
+IIS runtime: 0.10 seconds
+Optimize a model with 3143 rows, 18852 columns and 14690 nonzeros
+Model has 9426 quadratic constraints
+Model has 1 general constraint
+Variable types: 15710 continuous, 3142 integer (3142 binary)
+Coefficient statistics:
+  Matrix range     [1e-02, 2e+01]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [3e-01, 5e-01]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-02, 1e+07]
+Presolve removed 3141 rows and 3142 columns
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Best objective -, best bound -, gap -
+Warning: constraint name "makeAnImpact[Autauga County-Alabama,poverty-rate]" has a space
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   6.285000e+03   0.000000e+00      0s
+IIS runtime: 0.10 seconds
+IIS runtime: 0.00 seconds
+Optimize a model with 12569 rows, 15710 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-02, 2e+01]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+
+Solved in 6159 iterations and 0.01 seconds
+Optimal objective  0.000000000e+00
+Warning: constraint name "makeAnImpact[Autauga County-Alabama,poverty-rate]" has a space
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.910000e+04   0.000000e+00      0s
+IIS runtime: 0.03 seconds
+Optimize a model with 12569 rows, 15710 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+
+Solved in 662 iterations and 0.02 seconds
+Optimal objective  2.817950350e-02
+Optimize a model with 12569 rows, 15710 columns and 33542 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+
+Solved in 662 iterations and 0.01 seconds
+Optimal objective  2.817950350e-02
+Optimize a model with 12570 rows, 15710 columns and 42968 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+07]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8179504e-02   1.783700e+06   0.000000e+00      0s
+    1982    1.2576851e+00   0.000000e+00   0.000000e+00      2s
+
+Solved in 1982 iterations and 1.75 seconds
+Optimal objective  1.257685126e+00
+Warning: constraint name "makeAnImpact[Autauga County-Alabama]" has a space
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.122000e+05   0.000000e+00      0s
+IIS runtime: 0.18 seconds
+Optimize a model with 6285 rows, 15710 columns and 27258 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+03]
+
+Solved in 2573 iterations and 0.02 seconds
+Optimal objective  1.238119032e+00
+Warning: constraint name "makeAnImpact[Autauga County-Alabama]" has a space
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.122000e+05   0.000000e+00      0s
+IIS runtime: 0.09 seconds
+Optimize a model with 6288 rows, 15710 columns and 36684 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+03]
+
+Solved in 2591 iterations and 0.01 seconds
+Optimal objective  1.245482177e+00
+Optimize a model with 6293 rows, 15710 columns and 64962 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+05]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2454822e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.02 seconds
+Optimal objective  1.245482177e+00
+Warning: constraint name "makeAnImpact[Autauga County-Alabama]" has a space
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.122000e+05   0.000000e+00      0s
+IIS runtime: 0.15 seconds
+Optimize a model with 6288 rows, 15710 columns and 36684 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+05]
+
+Solved in 3449 iterations and 0.02 seconds
+Optimal objective  6.802323361e-01
+Warning: constraint name "makeAnImpact[Autauga County-Alabama]" has a space
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.122000e+05   0.000000e+00      0s
+IIS runtime: 0.25 seconds
+Optimize a model with 6288 rows, 15710 columns and 36684 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+05]
+
+Solved in 3449 iterations and 0.02 seconds
+Optimal objective  6.802323361e-01
+
+Gurobi 7.5.2 (win64, Python) logging started 09/07/18 14:48:05
+
+Academic license - for non-commercial use only
+Warning: constraint name "makeAnImpact[Autauga County-Alabama]" has a space
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   0.0000000e+000  2.122000e+005  0.000000e+000      0s
+IIS runtime: 0.44 seconds
+Optimize a model with 6288 rows, 15710 columns and 36684 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+05]
+
+Solved in 3449 iterations and 0.05 seconds
+Optimal objective  6.802323361e-01
+
+Gurobi 7.5.2 (win64, Python) logging started 09/07/18 15:45:08
+
+Academic license - for non-commercial use only
+Warning: constraint name "makeAnImpact[Autauga County-Alabama]" has a space
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   0.0000000e+000  2.122000e+005  0.000000e+000      0s
+IIS runtime: 0.21 seconds
+Optimize a model with 6288 rows, 15710 columns and 36684 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-04, 1e+00]
+  Objective range  [3e-04, 3e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-02, 1e+03]
+
+Solved in 2591 iterations and 0.02 seconds
+Optimal objective  1.245482177e+00
