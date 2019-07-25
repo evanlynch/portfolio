@@ -6,8 +6,5 @@ A sampling of data science projects I have worked on.
 To work on
 - Distribute
 - Tires analysis
-- Prob Available <<<<<<<<<>>>>>>>>>
-- Reorg optimization
-- Cat staffing
-- Repair prioritization?
-- Eviction data challenge
+- Machine Learning
+
